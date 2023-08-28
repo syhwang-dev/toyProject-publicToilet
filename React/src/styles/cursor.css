@@ -1,0 +1,35 @@
+* {
+  /* cursor: none; */
+}
+
+.cursor {
+  background: url('../assets/images/free-icon-toilet-paper.png') no-repeat;
+  /* background-color: #fff; */
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  pointer-events: none; /* 커서가 마우스 이벤트를 가로채지 않도록 설정 */
+  z-index: 9999; /* 커서가 다른 요소 위에 나타나도록 설정 */
+  transform: translate(-50%, -50%); /* 커서가 정확한 위치에 나타나도록 설정 */
+  
+}
+
+/* .cursor::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: #2e87ec;
+  mix-blend-mode: difference;
+  border-radius: 50%;
+  z-index: -1;
+} */
+
+
+
+
+
+
+
+

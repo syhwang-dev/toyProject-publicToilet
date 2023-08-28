@@ -1,0 +1,81 @@
+/* MarkerOverlayStyle.css */
+.wrap {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    width: 288px;
+    height: auto;
+    /* margin-left: -104px; */
+    /* text-align: left; */
+    overflow: hidden;
+    font-size: 12px;
+    font-family: 'GamjaFlower', sans-serif;
+    line-height: 1.5;
+    background-color: rgba(46, 135, 236, 0.8);
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .wrap * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .info {
+    width: 100%;
+    color: white;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0 0 10px;
+    height: 40px;
+    background: #2e87ec;
+    opacity: 0.8;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* 가운데 정렬 추가 */
+    text-align: center; /* 가운데 정렬 추가 */
+  }
+  
+  /* .close {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 10px;
+  } */
+  
+  .content {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .img {
+    width: 73px;
+    height: 70px;
+    /* border: 1px solid #ddd; */
+    margin-right: 10px; /* 이미지 오른쪽으로 이동 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    font-size: 16px;
+    /* margin-left: 50px; */
+    color: white;
+    display: flex;
+
+    align-items: center; /* 주소를 오른쪽으로 정렬 */
+    justify-content: center; /* 주소를 수직 가운데 정렬 */
+  }
+  

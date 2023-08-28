@@ -1,0 +1,21 @@
+.welcome-page {
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    height: 100vh; /* 화면 높이 전체 사용 */
+  }
+  
+  .welcome-container {
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    width: 100%;
+  }
+  
+  .welcome-message {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
